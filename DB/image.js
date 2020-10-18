@@ -1,9 +1,6 @@
 const mongoose = require('mongoose');
 const db = require('./index.js')
 
-
-
-
 let imageSchema = new mongoose.Schema({
   product: String,
   imageName: String,
@@ -12,9 +9,5 @@ let imageSchema = new mongoose.Schema({
   alt: String
 })
 
-
 const Image = mongoose.model('images', imageSchema)
-
-
-
 module.exports = Image;
