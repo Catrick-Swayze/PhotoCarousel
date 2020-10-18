@@ -25,10 +25,10 @@ Testing Script: npm test
 Have Fun!
 
 # CRUD API
-Create: POST to /products/:product/ to add to carousel.
+Create: POST to /products/ to add to carousel.
 
 Read: GET at /products/:product/ to get one product, get at /products to get all products.
 
-Update: PUT at /products/:product/ to update one product in database.
+Update: PUT at /products/:product/ to update one product in database. Does nothing if the product number is non-existant.
 
 Delete: DELETE at /products/:product/ to delete the product from the database.
