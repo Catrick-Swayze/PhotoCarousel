@@ -24,3 +24,9 @@ Testing Script: npm test
 
 Have Fun!
 
+# CRUD API 
+Create: POST to 
+Read: GET at 
+Update: PUT at 
+Delete: DELETE at 
+
