@@ -24,3 +24,11 @@ Testing Script: npm test
 
 Have Fun!
 
+# CRUD API
+Create: POST to /products/:product/ to add to carousel.
+
+Read: GET at /products/:product/ to get one product, get at /products to get all products.
+
+Update: PUT at /products/:product/ to update one product in database.
+
+Delete: DELETE at /products/:product/ to delete the product from the database.
