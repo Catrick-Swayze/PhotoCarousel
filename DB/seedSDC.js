@@ -47,3 +47,8 @@ console.log(time);
 // Time it takes to copy the csv file into postgreSQL database: 115002.086 ms (01:55.002)
 // Total time: 115010.43 ms
 // Took an extra 3 GB on my hard drive
+
+// Time it takes to generate the data into a csv file: 8.43 ms
+// Time it takes to copy the csv file into Cassandra database: 328.266 seconds = 328266 ms
+// Total time: 328274.43 ms
+// Took an extra 4 GB on my hard drive

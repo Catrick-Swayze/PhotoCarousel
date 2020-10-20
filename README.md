@@ -44,3 +44,16 @@ To start:
 2. Drop table: DROP TABLE "tableName";
 3. Show table: \dt
 4. Look inside table: SELECT * FROM "tableName";
+
+# Cassandra
+To start:
+1. sudo service cassandra start
+2. cqlsh
+
+Usage:
+1. DESCRIBE keyspaces; show all keyspaces
+2. USE keyspace
+3. SELECT * FROM tablename;
+
+To stop:
+1. sudo service cassandra stop
