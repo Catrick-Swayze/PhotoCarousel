@@ -32,3 +32,15 @@ Read: GET at /products/:product/ to get one product, get at /products to get all
 Update: PUT at /products/:product/ to update one product in database. Does nothing if the product number is non-existant.
 
 Delete: DELETE at /products/:product/ to delete the product from the database.
+
+# PostgreSQL
+To start:
+1. sudo -i -u postgres
+2. sudo service postgresql start
+3. psql
+4. Use database: psql databaseName
+
+1. Show database: \l
+2. Drop table: DROP TABLE "tableName";
+3. Show table: \dt
+4. Look inside table: SELECT * FROM "tableName";
