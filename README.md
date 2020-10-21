@@ -35,8 +35,8 @@ Delete: DELETE at /products/:product/ to delete the product from the database.
 
 # PostgreSQL
 To start:
-1. sudo -i -u postgres
-2. sudo service postgresql start
+1. sudo service postgresql start
+2. sudo -i -u postgres
 3. psql
 4. Use database: psql databaseName
 

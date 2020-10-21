@@ -3,3 +3,4 @@ bundle.js
 .DS_Store
 *.csv
 testSeed.js
+postgreSQL Notes
