@@ -24,7 +24,6 @@ class ImageCarousel extends React.Component {
     })
   }
 
-
   changeMainImage(imageID, index) {
     this.setState({
       mainImageId: imageID,

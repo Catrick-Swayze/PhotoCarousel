@@ -16,7 +16,7 @@ class GreyedOutImage extends React.Component {
       <div className={styles.imageContainer}>
         <img
           className={styles.greyedImage}
-          src={this.props.extendImage.url}
+          // src={this.props.extendImage.url}
           onClick={this.imageClick.bind(this)}>
           </img>
     <div className={styles.centeredOverImage}

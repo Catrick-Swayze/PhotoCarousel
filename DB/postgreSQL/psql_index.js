@@ -93,7 +93,7 @@ app.use(express.json());
 const path = require('path');
 const babelPolyFill = require('@babel/polyfill');
 
-app.use(express.static(path.join(__dirname, '/../dist')));
+app.use(express.static(path.join(__dirname, '/../../dist')));
 
 app.get('/products/:product/', function(req, res) {
     var productParam = req.params.product;

@@ -45,6 +45,9 @@ To start:
 3. Show table: \dt
 4. Look inside table: SELECT * FROM "tableName";
 
+To stop:
+1. sudo service postgresql stop
+
 # Cassandra
 To start:
 1. sudo service cassandra start
