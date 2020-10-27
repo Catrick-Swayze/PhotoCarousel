@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose -u",
-    "start": "nodemon ./Server/index.js",
+    "start": "nodemon ./DB/postgreSQL/psql_index.js",
     "dbSetup": "node DB/seed.js",
     "build": "webpack --config webpack.config.js"
   },
@@ -30,6 +30,7 @@
     "jest-cli": "^26.4.2",
     "mongo": "^0.1.0",
     "mongoose": "^5.10.6",
+    "newrelic": "^6.13.2",
     "nodemon": "^2.0.4",
     "npm": "^6.14.8",
     "pg": "^8.4.1",
@@ -40,6 +41,7 @@
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
+    "artillery": "^1.6.1",
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.3.0",

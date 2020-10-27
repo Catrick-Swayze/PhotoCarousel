@@ -60,3 +60,9 @@ Usage:
 
 To stop:
 1. sudo service cassandra stop
+
+k6:
+k6 run script.js
+
+Artillery:
+artillery run script.yml
