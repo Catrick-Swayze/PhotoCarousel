@@ -6,3 +6,4 @@ testSeed.js
 postgreSQL Notes
 Cassandra Notes
 newrelic.js
+newrelic_agent.log

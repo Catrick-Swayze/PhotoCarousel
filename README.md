@@ -62,7 +62,7 @@ To stop:
 1. sudo service cassandra stop
 
 k6:
-k6 run script.js
+sudo k6 run test-module-script.js
 
 Artillery:
-artillery run script.yml
+sudo artillery run test-module-script.yml

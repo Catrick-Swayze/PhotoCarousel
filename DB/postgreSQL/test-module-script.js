@@ -1,5 +1,5 @@
 import http from 'k6/http';
-import { sleep } from 'k6';
+import { check, sleep } from 'k6';
 
 export let options = {
     vus: 100,
@@ -7,6 +7,6 @@ export let options = {
 };
 
 export default function () {
-  http.get("http://localhost:3001/products/1");
+  http.get(`http://localhost:3001/products/${Math.floor(Math.random() * 10000000) + 1}`);
   sleep(1);
 }

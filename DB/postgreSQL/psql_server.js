@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
+const cors = require('cors');
 app.use(express.json());
+app.use(cors());
+app.options('*', cors());
 const path = require('path');
 const babelPolyFill = require('@babel/polyfill');
 const helpers = require('./psql_server_helpers.js');
